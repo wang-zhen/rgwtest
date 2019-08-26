@@ -1,0 +1,295 @@
+111111111111111111111111
+Method: HEAD
+Path: /wangz-bucket/
+Data: 
+Headers: {}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+1111111666666666677777777777111111
+1y1111111
+{}
+('headers:', {'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+/wangz-bucket/
+('headers:', {'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+('headers:', <boto.provider.Provider object at 0x7f2d926b7090>)
+('wang:', 'x-amz-')
+('wang:', 'x-amz-date')
+wwiiiwwwwwwww
+('string_to_sign:', 'HEAD\n\n\nSun, 25 Aug 2019 03:54:45 GMT\n/wangz-bucket/')
+('b64_hmac:', u'h4TXCZPWh9QtWViEG2l6W+9kae0=')
+('auth_hdr:', 'AWS')
+('auth:', u'AWS DI5N4CZDI21SGM7VD5K0:h4TXCZPWh9QtWViEG2l6W+9kae0=')
+('headers:', {'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:h4TXCZPWh9QtWViEG2l6W+9kae0=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+wwiiiwwwwwwww
+===iiiii==========
+{'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:h4TXCZPWh9QtWViEG2l6W+9kae0=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+{'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'Content-Length': '0', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:h4TXCZPWh9QtWViEG2l6W+9kae0=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+111uuuuuuuu111111111111111111111
+Method: HEAD
+Path: /wangz-bucket/
+Data: 
+Headers: {'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'Content-Length': '0', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:h4TXCZPWh9QtWViEG2l6W+9kae0=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+/wangz-bucket/
+wwwwwwwwwwwwwwwwwww
+200
+
+wwwwwwwwwwwwwwwwwww
+111111111111111111111111
+Method: POST
+Path: /wangz-bucket/HEHE?uploads
+Data: 
+Headers: {}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+1y1111111
+{}
+('headers:', {'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+/wangz-bucket/HEHE?uploads
+('headers:', {'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+('headers:', <boto.provider.Provider object at 0x7f2d926b7090>)
+('wang:', 'x-amz-')
+('wang:', 'x-amz-date')
+wwiiiwwwwwwww
+('string_to_sign:', 'POST\n\n\nSun, 25 Aug 2019 03:54:45 GMT\n/wangz-bucket/HEHE?uploads')
+('b64_hmac:', u'N2JyfNwT/2tZ2EzM5qmv91JnvGw=')
+('auth_hdr:', 'AWS')
+('auth:', u'AWS DI5N4CZDI21SGM7VD5K0:N2JyfNwT/2tZ2EzM5qmv91JnvGw=')
+('headers:', {'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:N2JyfNwT/2tZ2EzM5qmv91JnvGw=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+wwiiiwwwwwwww
+===iiiii==========
+{'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:N2JyfNwT/2tZ2EzM5qmv91JnvGw=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+{'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'Content-Length': '0', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:N2JyfNwT/2tZ2EzM5qmv91JnvGw=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+111uuuuuuuu111111111111111111111
+Method: POST
+Path: /wangz-bucket/HEHE?uploads
+Data: 
+Headers: {'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'Content-Length': '0', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:N2JyfNwT/2tZ2EzM5qmv91JnvGw=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+/wangz-bucket/HEHE?uploads
+wwwwwwwwwwwwwwwwwww
+200
+<?xml version="1.0" encoding="UTF-8"?><InitiateMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>wangz-bucket</Bucket><Key>HEHE</Key><UploadId>2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf</UploadId></InitiateMultipartUploadResult>
+wwwwwwwwwwwwwwwwwww
+('0000000000000000chunk_count%d0000000000000000000000000000000', 3)
+111111111111111111111111
+Method: PUT
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=1
+Data: 
+Headers: {'Content-Length': '20971520', 'Content-MD5': u'j04z89w+QU/5Tl+2kFy6jA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+1y1111111
+{'Content-Length': '20971520', 'Content-MD5': u'j04z89w+QU/5Tl+2kFy6jA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+('headers:', {'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=1
+('headers:', {'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream'})
+('headers:', <boto.provider.Provider object at 0x7f2d926b7090>)
+('wang:', 'x-amz-')
+('wang:', 'x-amz-date')
+wwiiiwwwwwwww
+('string_to_sign:', u'PUT\nj04z89w+QU/5Tl+2kFy6jA==\napplication/octet-stream\nSun, 25 Aug 2019 03:54:45 GMT\n/wangz-bucket/HEHE?partNumber=1&uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf')
+('b64_hmac:', u'sQyTv0Aklqm4IL4xhMPNIO8Kkv4=')
+('auth_hdr:', 'AWS')
+('auth:', u'AWS DI5N4CZDI21SGM7VD5K0:sQyTv0Aklqm4IL4xhMPNIO8Kkv4=')
+('headers:', {'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:sQyTv0Aklqm4IL4xhMPNIO8Kkv4='})
+wwiiiwwwwwwww
+===iiiii==========
+{'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:sQyTv0Aklqm4IL4xhMPNIO8Kkv4='}
+{'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:sQyTv0Aklqm4IL4xhMPNIO8Kkv4='}
+111uuuuuuuu1tttttttt11111111111111111111
+Method: PUT
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=1
+Data: 
+Headers: {'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:45 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:sQyTv0Aklqm4IL4xhMPNIO8Kkv4='}
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=1
+wwwwwwwwwwwwwwwwwww
+200
+
+wwwwwwwwwwwwwwwwwww
+('0000000000000000chunk_count%d0000000000000000000000000000000', 3)
+111111111111111111111111
+Method: PUT
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=2
+Data: 
+Headers: {'Content-Length': '20971520', 'Content-MD5': u'j04z89w+QU/5Tl+2kFy6jA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+1y1111111
+{'Content-Length': '20971520', 'Content-MD5': u'j04z89w+QU/5Tl+2kFy6jA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+('headers:', {'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=2
+('headers:', {'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:46 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream'})
+('headers:', <boto.provider.Provider object at 0x7f2d926b7090>)
+('wang:', 'x-amz-')
+('wang:', 'x-amz-date')
+wwiiiwwwwwwww
+('string_to_sign:', u'PUT\nj04z89w+QU/5Tl+2kFy6jA==\napplication/octet-stream\nSun, 25 Aug 2019 03:54:46 GMT\n/wangz-bucket/HEHE?partNumber=2&uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf')
+('b64_hmac:', u'BPGk9w8Wy6DM9uFErY+gT6PRZmQ=')
+('auth_hdr:', 'AWS')
+('auth:', u'AWS DI5N4CZDI21SGM7VD5K0:BPGk9w8Wy6DM9uFErY+gT6PRZmQ=')
+('headers:', {'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:46 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:BPGk9w8Wy6DM9uFErY+gT6PRZmQ='})
+wwiiiwwwwwwww
+===iiiii==========
+{'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:46 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:BPGk9w8Wy6DM9uFErY+gT6PRZmQ='}
+{'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:46 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:BPGk9w8Wy6DM9uFErY+gT6PRZmQ='}
+111uuuuuuuu1tttttttt11111111111111111111
+Method: PUT
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=2
+Data: 
+Headers: {'Content-Length': '20971520', 'Content-MD5': 'j04z89w+QU/5Tl+2kFy6jA==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:46 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:BPGk9w8Wy6DM9uFErY+gT6PRZmQ='}
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=2
+wwwwwwwwwwwwwwwwwww
+200
+
+wwwwwwwwwwwwwwwwwww
+('0000000000000000chunk_count%d0000000000000000000000000000000', 3)
+111111111111111111111111
+Method: PUT
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=3
+Data: 
+Headers: {'Content-Length': '10485760', 'Content-MD5': u'8clkXbwU793H2KMiaF8m6w==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+1y1111111
+{'Content-Length': '10485760', 'Content-MD5': u'8clkXbwU793H2KMiaF8m6w==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+('headers:', {'Content-Length': '10485760', 'Content-MD5': '8clkXbwU793H2KMiaF8m6w==', 'Content-Type': 'application/octet-stream', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=3
+('headers:', {'Content-Length': '10485760', 'Content-MD5': '8clkXbwU793H2KMiaF8m6w==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream'})
+('headers:', <boto.provider.Provider object at 0x7f2d926b7090>)
+('wang:', 'x-amz-')
+('wang:', 'x-amz-date')
+wwiiiwwwwwwww
+('string_to_sign:', u'PUT\n8clkXbwU793H2KMiaF8m6w==\napplication/octet-stream\nSun, 25 Aug 2019 03:54:47 GMT\n/wangz-bucket/HEHE?partNumber=3&uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf')
+('b64_hmac:', u'biTlljrpItVggZtVauKxJG745l0=')
+('auth_hdr:', 'AWS')
+('auth:', u'AWS DI5N4CZDI21SGM7VD5K0:biTlljrpItVggZtVauKxJG745l0=')
+('headers:', {'Content-Length': '10485760', 'Content-MD5': '8clkXbwU793H2KMiaF8m6w==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:biTlljrpItVggZtVauKxJG745l0='})
+wwiiiwwwwwwww
+===iiiii==========
+{'Content-Length': '10485760', 'Content-MD5': '8clkXbwU793H2KMiaF8m6w==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:biTlljrpItVggZtVauKxJG745l0='}
+{'Content-Length': '10485760', 'Content-MD5': '8clkXbwU793H2KMiaF8m6w==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:biTlljrpItVggZtVauKxJG745l0='}
+111uuuuuuuu1tttttttt11111111111111111111
+Method: PUT
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=3
+Data: 
+Headers: {'Content-Length': '10485760', 'Content-MD5': '8clkXbwU793H2KMiaF8m6w==', 'Expect': '100-Continue', 'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64', 'Content-Type': 'application/octet-stream', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:biTlljrpItVggZtVauKxJG745l0='}
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf&partNumber=3
+wwwwwwwwwwwwwwwwwww
+200
+
+wwwwwwwwwwwwwwwwwww
+before complete
+111111111111111111111111
+Method: GET
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf
+Data: 
+Headers: {}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+1y1111111
+{}
+('headers:', {'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf
+('headers:', {'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+('headers:', <boto.provider.Provider object at 0x7f2d926b7090>)
+('wang:', 'x-amz-')
+('wang:', 'x-amz-date')
+wwiiiwwwwwwww
+('string_to_sign:', u'GET\n\n\nSun, 25 Aug 2019 03:54:47 GMT\n/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf')
+('b64_hmac:', u'fO3BNZ7GtyRGBo3wHvVZ7ivHy+s=')
+('auth_hdr:', 'AWS')
+('auth:', u'AWS DI5N4CZDI21SGM7VD5K0:fO3BNZ7GtyRGBo3wHvVZ7ivHy+s=')
+('headers:', {'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:fO3BNZ7GtyRGBo3wHvVZ7ivHy+s=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+wwiiiwwwwwwww
+===iiiii==========
+{'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:fO3BNZ7GtyRGBo3wHvVZ7ivHy+s=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+{'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Content-Length': '0', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:fO3BNZ7GtyRGBo3wHvVZ7ivHy+s=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+111uuuuuuuu111111111111111111111
+Method: GET
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf
+Data: 
+Headers: {'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Content-Length': '0', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:fO3BNZ7GtyRGBo3wHvVZ7ivHy+s=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf
+wwwwwwwwwwwwwwwwwww
+200
+<?xml version="1.0" encoding="UTF-8"?><ListPartsResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Bucket>wangz-bucket</Bucket><Key>HEHE</Key><UploadId>2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf</UploadId><StorageClass>STANDARD</StorageClass><PartNumberMarker>0</PartNumberMarker><NextPartNumberMarker>3</NextPartNumberMarker><MaxParts>1000</MaxParts><IsTruncated>false</IsTruncated><Owner><ID>wangzhen</ID><DisplayName>wangzhen</DisplayName></Owner><Part><LastModified>2019-08-25T03:54:46.212Z</LastModified><PartNumber>1</PartNumber><ETag>&quot;8f4e33f3dc3e414ff94e5fb6905cba8c&quot;</ETag><Size>20971520</Size></Part><Part><LastModified>2019-08-25T03:54:47.265Z</LastModified><PartNumber>2</PartNumber><ETag>&quot;8f4e33f3dc3e414ff94e5fb6905cba8c&quot;</ETag><Size>20971520</Size></Part><Part><LastModified>2019-08-25T03:54:47.794Z</LastModified><PartNumber>3</PartNumber><ETag>&quot;f1c9645dbc14efddc7d8a322685f26eb&quot;</ETag><Size>10485760</Size></Part></ListPartsResult>
+wwwwwwwwwwwwwwwwwww
+111111111111111111111111
+Method: POST
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf
+Data: <CompleteMultipartUpload>
+  <Part>
+    <PartNumber>1</PartNumber>
+    <ETag>"8f4e33f3dc3e414ff94e5fb6905cba8c"</ETag>
+  </Part>
+  <Part>
+    <PartNumber>2</PartNumber>
+    <ETag>"8f4e33f3dc3e414ff94e5fb6905cba8c"</ETag>
+  </Part>
+  <Part>
+    <PartNumber>3</PartNumber>
+    <ETag>"f1c9645dbc14efddc7d8a322685f26eb"</ETag>
+  </Part>
+</CompleteMultipartUpload>
+Headers: {'Content-Type': 'text/xml'}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+1y1111111
+{'Content-Type': 'text/xml'}
+('headers:', {'Content-Type': 'text/xml', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf
+('headers:', {'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Content-Type': 'text/xml', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+('headers:', <boto.provider.Provider object at 0x7f2d926b7090>)
+('wang:', 'x-amz-')
+('wang:', 'x-amz-date')
+wwiiiwwwwwwww
+('string_to_sign:', u'POST\n\ntext/xml\nSun, 25 Aug 2019 03:54:47 GMT\n/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf')
+('b64_hmac:', u'ahVYXc2Y2TBJ3IhTDIEHiC4JXfc=')
+('auth_hdr:', 'AWS')
+('auth:', u'AWS DI5N4CZDI21SGM7VD5K0:ahVYXc2Y2TBJ3IhTDIEHiC4JXfc=')
+('headers:', {'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Content-Type': 'text/xml', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:ahVYXc2Y2TBJ3IhTDIEHiC4JXfc=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'})
+wwiiiwwwwwwww
+===iiiii==========
+{'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Content-Type': 'text/xml', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:ahVYXc2Y2TBJ3IhTDIEHiC4JXfc=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+{'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Content-Length': '358', 'Content-Type': 'text/xml', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:ahVYXc2Y2TBJ3IhTDIEHiC4JXfc=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+111uuuuuuuu111111111111111111111
+Method: POST
+Path: /wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf
+Data: <CompleteMultipartUpload>
+  <Part>
+    <PartNumber>1</PartNumber>
+    <ETag>"8f4e33f3dc3e414ff94e5fb6905cba8c"</ETag>
+  </Part>
+  <Part>
+    <PartNumber>2</PartNumber>
+    <ETag>"8f4e33f3dc3e414ff94e5fb6905cba8c"</ETag>
+  </Part>
+  <Part>
+    <PartNumber>3</PartNumber>
+    <ETag>"f1c9645dbc14efddc7d8a322685f26eb"</ETag>
+  </Part>
+</CompleteMultipartUpload>
+Headers: {'Date': 'Sun, 25 Aug 2019 03:54:47 GMT', 'Content-Length': '358', 'Content-Type': 'text/xml', 'Authorization': u'AWS DI5N4CZDI21SGM7VD5K0:ahVYXc2Y2TBJ3IhTDIEHiC4JXfc=', 'User-Agent': 'Boto/2.49.0 Python/2.7.5 Linux/3.10.0-862.el7.x86_64'}
+Host: 172.16.103.18
+Port: 80
+Params: {}
+/wangz-bucket/HEHE?uploadId=2~b_kKB9GU5JP5oGsT2l6OZwdNy-Ljfhf
+wwwwwwwwwwwwwwwwwww
+200
+<?xml version="1.0" encoding="UTF-8"?><CompleteMultipartUploadResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Location>http://172.16.103.18/wangz-bucket/HEHE</Location><Bucket>wangz-bucket</Bucket><Key>HEHE</Key><ETag>1dbe44ea2064aa6df5905baecb8c8d65-3</ETag></CompleteMultipartUploadResult>
+wwwwwwwwwwwwwwwwwww

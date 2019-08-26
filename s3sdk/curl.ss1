@@ -1,0 +1,27 @@
+1. 创建bucket
+curl -X PUT http://172.16.103.56:5000/v1/storage/oss/wangz-bucket234 -H 'Host: 172.16.103.56:5000' -H 'Date: Tue, 20 Aug 2019 06:11:39 GMT' -H 'Authorization: AWS DI5N4CZDI21SGM7VD5K0:L7ybcSLM3jhInl4p08JRxl6mOeM='
+
+2.删除bucket
+curl -X DELETE http://172.16.103.56:5000/v1/storage/oss/wangz-bucket234 -H 'Host: 172.16.103.56:5000' -H 'Date: Wed, 21 Aug 2019 03:22:44 GMT' -H 'Authorization: AWS DI5N4CZDI21SGM7VD5K0:O6qRLwsmLGNkPTRG5//Zy/nld+8='
+
+
+3.列出bucket 对象
+curl -X GET http://172.16.103.56:5000/v1/storage/oss/wangz-bucket/?max-keys=1 -H 'Host: 172.16.103.56:5000' -H 'Date: Wed, 21 Aug 2019 03:35:26 GMT' -H 'Authorization: AWS DI5N4CZDI21SGM7VD5K0:okEVwUfUpg3z9nc3FyyFj7pQivo='
+
+4.设置bucket ACL
+curl -X PUT http://172.16.103.56:5000/v1/storage/oss/wangz-bucket234/?acl -H 'Host: 172.16.103.56:5000' -H 'Date: Wed, 21 Aug 2019 06:06:42 GMT' -H 'Authorization: AWS DI5N4CZDI21SGM7VD5K0:iyNRJFBI4JERKi3Hp7vusgqP8ec=' -H 'x-amz-acl: private'
+
+5.上传 object
+curl -X PUT http://172.16.103.56:5000/v1/storage/oss/wangz-bucket/wangz/asd/asd -H 'Host: 172.16.103.56:5000' -H 'Date: Wed, 21 Aug 2019 08:22:59 GMT' -H 'Authorization: AWS DI5N4CZDI21SGM7VD5K0:+MRJZziSR0r/9tWS4kN8AU75R4U=' -H 'Content-Type: application/octet-stream' -H 'Content-MD5: Lt0CMx0D0xbYVaVgxH159g==' -H 'Content-Length: 8' -d 'wangzhen'
+
+6 copy文件
+curl -X PUT http://172.16.103.56:5000/v1/storage/oss/wangz-bucket1/wangz -H 'Host: 172.16.103.56:5000' -H 'Date: Thu, 22 Aug 2019 01:13:04 GMT' -H 'Authorization: OSS DI5N4CZDI21SGM7VD5K0:naKZQqRJxchhlAUnZ3rw4srGjw4=' -H 'x-oss-metadata-directive: COPY' -H 'Content-Length: 0' -H 'x-oss-storage-class: STANDARD' -H 'x-oss-copy-source: wangz-bucket/wangz'
+
+7 删除文件
+curl -X DELETE http://172.16.103.56:5000/v1/storage/oss/wangz-bucket1/wangz -H 'Host: 172.16.103.56:5000' -H 'Date: Thu, 22 Aug 2019 03:27:36 GMT' -H 'Authorization: OSS DI5N4CZDI21SGM7VD5K0:QyWESYLpqFYEI6yrAqJCG1kUYnM='
+
+8 获取文件信息
+curl -v -X GET http://172.16.103.18/wangz-bucket/wangz -H 'Host: 172.16.103.15' -H 'Date: Thu, 22 Aug 2019 05:01:56 GMT' -H 'Authorization: AWS DI5N4CZDI21SGM7VD5K0:JqPSNozYR1t/ggZITju8mwygD1c=
+
+9 获取文件元数据
+curl -v -X HEAD http://172.16.103.56:5000/v1/storage/oss/wangz-bucket/wangz -H 'Host: 172.16.103.56' -H 'Date: Thu, 22 Aug 2019 05:14:41 GMT' -H 'Authorization: OSS DI5N4CZDI21SGM7VD5K0:L/O2TxlLZD4HT/U+JCLcVqtgVjo='
