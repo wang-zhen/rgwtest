@@ -35,14 +35,16 @@ header = {
 mp = b.initiate_multipart_upload(mul_key)
 
 chunk_size = 20971520
+chunk_size = 2048
 chunk_count = int(math.ceil(source_size / float(chunk_size)))
 
 for i in range(chunk_count):
     offset = chunk_size * i
     bytes = min(chunk_size, source_size - offset)
     with FileChunkIO(source_path, 'r', offset=offset,bytes=bytes) as fp:
-        print("0000000000000000chunk_count%d0000000000000000000000000000000", chunk_count)
+        print("0000000000000000(chunk_count:%d)0000000000000(tell:%d)000000000000000000" % (chunk_count, fp.tell()))
+        print(type(fp))
         mp.upload_part_from_file(fp, part_num=i + 1)
 
 print "before complete"
-mp.complete_upload()
+#mp.complete_upload()

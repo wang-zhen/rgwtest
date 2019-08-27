@@ -28,4 +28,7 @@ src = conn.get_bucket('wangz-bucket')
 #              ) 
 key = src.get_key('wangz')
 print("00000000000000000000000000000000000000000000000")
-key.get_contents_to_filename('filedir/test2')
+print key.name
+#key.set_metadata("expires_in", 3600)
+#print key.metadata['expires_in']
+#key.get_contents_to_filename('filedir/test2')

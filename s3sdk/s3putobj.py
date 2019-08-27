@@ -20,7 +20,7 @@ except Exception, e:
 
 filep = './curl.ss1'
 bucket = conn.get_bucket('wangz-bucket')
-key = bucket.new_key('wangz-bucket/wangz ')
+key = bucket.new_key('wangz ')
 
 print("00000000000000000000000000000000000000000000000")
 key.set_contents_from_filename(filep)
