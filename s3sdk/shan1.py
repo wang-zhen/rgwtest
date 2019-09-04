@@ -6,6 +6,7 @@ import math
 import boto.s3.connection
 from boto.s3 import *
 from boto.s3.connection import S3Connection
+from boto.exception import *
 from filechunkio import FileChunkIO
 from io import BytesIO
 
@@ -31,7 +32,18 @@ header = {
 }
 
 mul_key = 'ceshi'
-mp = b.initiate_multipart_upload(mul_key)
+try:
+    mp = b.initiate_multipart_upload(mul_key)
+    mp.complete_upload()
+except S3ResponseError as e:
+#except Exception, e:
+    print('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy')
+    print(e)
+    print(e.status)
+    print(e.message)
+    print(e.body)
+    print('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy')
+sys.exit(0)
 
 ''' 50M'''
 ''' 40'''

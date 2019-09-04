@@ -24,8 +24,8 @@ print("00000000000000000000000000000000000000000000000")
 acl = src.get_xml_acl('wangz')
 print acl
 
-print("00000000000000000000000000000000000000000000000")
-key = src.get_key('wangz')
-acl  = key.get_acl()
-print acl
+#print("00000000000000000000000000000000000000000000000")
+#key = src.get_key('ceshi')
+#acl  = key.get_acl()
+#print acl
 

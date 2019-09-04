@@ -18,7 +18,7 @@ try:
 except Exception, e:
     print "asdsad"
 
-src = conn.get_bucket('wangz-bucket')
+src = conn.get_bucket('wangz-bucket3')
 #print("00000000000000000000000000000000000000000000000")
 #for key in src.list():
 #        print "{name}\t{size}\t{modified}".format(
@@ -26,9 +26,8 @@ src = conn.get_bucket('wangz-bucket')
 #                size = key.size,
 #                modified = key.last_modified,
 #              ) 
-key = src.get_key('wangz')
+key = src.get_key('.wangz-bucket3.metadatakey')
 print("00000000000000000000000000000000000000000000000")
-print key.name
 #key.set_remote_metadata({"expiresin": 3600}, {}, True)
 #key.set_remote_metadata({'Content-Type': 'custom/type'}, {}, True)
 print key.metadata

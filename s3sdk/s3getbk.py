@@ -23,11 +23,8 @@ except Exception, e:
 
 #bucket = conn.create_bucket('wangz-bucket')
 
+print '========================='
 bucket = conn.get_bucket('wangz-bucket')
-print '========================='
-print '========================='
-print '========================='
-print '========================='
 
-bucket.get_all_keys(maxkeys=100)
+#bucket.get_all_keys(maxkeys=100)
 sys.exit(0)

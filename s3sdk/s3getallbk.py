@@ -9,7 +9,7 @@ access_key = 'DI5N4CZDI21SGM7VD5K0'
 secret_key = 'hiWlH8dx0rE2Ilda9qfiAxL2Pg8CEF77tD8qOuvl'
 
 try:
-	conn = boto.connect_s3(
+	s3 = boto.connect_s3(
         aws_access_key_id = access_key,
         aws_secret_access_key = secret_key,
         host = '172.16.103.18', port = 80,
@@ -17,17 +17,11 @@ try:
         )
 except Exception, e:
     print "asdsad"
-	#logging.error("wangzhen" % e)
-	#logging.error("Cannot connect to AWS S3 with Access Key: %s!" % self.access_key)
 
-
-#bucket = conn.create_bucket('wangz-bucket')
-
-bucket = conn.get_bucket('wangz-bucket')
-print '========================='
-
-acl = bucket.set_acl('public-read')
 
 print '========================='
-print acl
-sys.exit(0)
+for bucket in s3.get_all_buckets():
+        print "{name}\t{created}".format(
+                name = bucket.name,
+                created = bucket.creation_date,
+        )

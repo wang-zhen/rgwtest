@@ -25,11 +25,10 @@ except Exception, e:
 
 bucket = conn.get_bucket('wangz-bucket')
 print '========================='
-print '========================='
-print '========================='
-print '========================='
 
-bucket.get_acl()
+acl = bucket.get_acl()
+print '========================='
+print acl
 sys.exit(0)
 key = bucket.new_key('dir2/')
 #key.set_contents_from_filename('./wenben.txt')

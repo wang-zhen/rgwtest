@@ -18,11 +18,13 @@ try:
 except Exception, e:
     print "asdsad"
 
-filep = './curl.ss1'
+#filep = './curl.ss1'
+filep = 'wangzhen'
 bucket = conn.get_bucket('wangz-bucket')
 key = bucket.new_key('wangz ')
 
 print("00000000000000000000000000000000000000000000000")
-key.set_contents_from_filename(filep)
+#key.set_contents_from_filename(filep)
+key.set_contents_from_string(filep)
 
 sys.exit(0)

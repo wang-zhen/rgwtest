@@ -26,9 +26,15 @@ src = conn.get_bucket('wangz-bucket')
 #                size = key.size,
 #                modified = key.last_modified,
 #              ) 
-key = src.get_key('wangz')
+key = src.get_key('wangz111')
 print("00000000000000000000000000000000000000000000000")
-print key.name
+print key
+#url = key.generate_url(0, query_auth=False, force_http=True)
+#print url
+#print key.content_type
+#print key.last_modified
 #key.set_metadata("expires_in", 3600)
 #print key.metadata['expires_in']
-#key.get_contents_to_filename('filedir/test2')
+key.get_contents_to_filename('./test2')
+print("00000000000000000000000000000000000000000000000")
+print key.size

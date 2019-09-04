@@ -46,11 +46,13 @@ for i in range(chunk_count):
         print("0000000000000000(chunk_count:%d)0000000000000(tell:%d)000000000000000000" % (chunk_count, fp.tell()))
         print(type(fp))
         mp.upload_part_from_file(fp, part_num=i + 1)
+    mp.cancel_upload()
 
 print "before complete"
-mp = mp.complete_upload()
-key = b.get_key('HEHE')
-print mp
+mp.cancel_upload()
+#mp = mp.complete_upload()
+#key = b.get_key('HEHE')
+#print mp
 #print key.size
 #print key.content_type
 #print key.last_modified

@@ -5,8 +5,8 @@ import boto.s3.connection
 from boto.s3 import *
 from boto.s3.connection import S3Connection
 
-access_key = 'DI5N4CZDI21SGM7VD5K0'
-secret_key = 'hiWlH8dx0rE2Ilda9qfiAxL2Pg8CEF77tD8qOuvl'
+access_key = '5QJEDSQUFW07UMSCEAML'
+secret_key = 'Kdr7OFkDtQlIM8cA3iDAdwR7Hn4NqWtxO6PAJDsD'
 
 try:
 	conn = boto.connect_s3(
@@ -23,11 +23,5 @@ except Exception, e:
 
 #bucket = conn.create_bucket('wangz-bucket')
 
-bucket = conn.get_bucket('wangz-bucket')
 print '========================='
-
-acl = bucket.set_acl('public-read')
-
-print '========================='
-print acl
-sys.exit(0)
+bucket = conn.create_bucket('new-bucket', policy='public-read')

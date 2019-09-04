@@ -23,11 +23,5 @@ except Exception, e:
 
 #bucket = conn.create_bucket('wangz-bucket')
 
-bucket = conn.get_bucket('wangz-bucket')
 print '========================='
-
-acl = bucket.set_acl('public-read')
-
-print '========================='
-print acl
-sys.exit(0)
+bucket = conn.create_bucket('my-new-bucket', policy='public-read')

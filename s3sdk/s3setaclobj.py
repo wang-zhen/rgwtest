@@ -19,9 +19,9 @@ except Exception, e:
     print "asdsad"
 
 src = conn.get_bucket('wangz-bucket')
-key = src.get_key('a.out')
+key = src.get_key('wangz')
 
 print("00000000000000000000000000000000000000000000000")
-key.set_canned_acl('private')
+key.set_canned_acl('public-read-write')
 
 print acl
